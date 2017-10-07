@@ -1,0 +1,19 @@
+
+.dropdown-item {
+    color: black;
+    font-family: Papyrus, fantasy;
+}
+
+.nav-link {
+    color: white;
+    font-family: Papyrus, fantasy;
+}
+
+.dropdown-menu {
+    background-color: black;
+}
+
+.carousel-item img {
+    height: 550px;
+    width: 800px;
+}
