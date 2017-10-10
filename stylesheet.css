@@ -7,13 +7,37 @@
 .nav-link {
     color: white;
     font-family: Papyrus, fantasy;
+    font-size: 18px;
 }
 
 .dropdown-menu {
     background-color: black;
 }
 
+.nav {
+    padding-right: 25px;
+}
+
 .carousel-item img {
     height: 550px;
     width: 800px;
+}
+
+.footer {
+    background-color: black;
+}
+
+.footer #masthead {
+    font-size: 10px;
+    color: white;
+    align-content: center;
+}
+
+.footer-links p a {
+    font-family: Calibri;
+    color: white;
+}
+
+.footer-links p {
+    color:ghostwhite;
 }
