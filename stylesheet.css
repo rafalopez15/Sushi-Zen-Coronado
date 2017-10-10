@@ -17,3 +17,14 @@
     height: 550px;
     width: 800px;
 }
+
+#About-section {
+    font-family: Papyrus, fantasy;
+    background-color: black;
+    color: white;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
