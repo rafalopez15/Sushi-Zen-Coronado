@@ -23,25 +23,34 @@
     width: 800px;
 }
 
-<<<<<<< HEAD
 .footer {
     background-color: black;
 }
 
-.footer #masthead {
-    font-size: 10px;
-    color: white;
-    align-content: center;
+.copyright p {
+    padding-left: 30px;
+}
+
+.masthead p {
+    font-size: 15px;
+}
+
+.footer-links {
+    float: right;
+    text-align: center;
 }
 
 .footer-links p a {
+    align-content: right;
     font-family: Calibri;
     color: white;
+    text-align: right;
 }
 
 .footer-links p {
-    color:ghostwhite;
-=======
+    color: ghostwhite;
+}
+    
 #About-section {
     font-family: Papyrus, fantasy;
     background-color: black;
@@ -51,5 +60,4 @@
     padding-left: 100px;
     padding-right: 100px;
     font-size: 28px;
->>>>>>> master
 }
