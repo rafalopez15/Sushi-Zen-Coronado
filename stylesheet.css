@@ -7,10 +7,15 @@
 .nav-link {
     color: white;
     font-family: Papyrus, fantasy;
+    font-size: 18px;
 }
 
 .dropdown-menu {
     background-color: black;
+}
+
+.nav {
+    padding-right: 25px;
 }
 
 .carousel-item img {
@@ -18,6 +23,34 @@
     width: 800px;
 }
 
+.footer {
+    background-color: black;
+}
+
+.copyright p {
+    padding-left: 30px;
+}
+
+.masthead p {
+    font-size: 15px;
+}
+
+.footer-links {
+    float: right;
+    text-align: center;
+}
+
+.footer-links p a {
+    align-content: right;
+    font-family: Calibri;
+    color: white;
+    text-align: right;
+}
+
+.footer-links p {
+    color: ghostwhite;
+}
+    
 #About-section {
     font-family: Papyrus, fantasy;
     background-color: black;
