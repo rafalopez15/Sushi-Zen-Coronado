@@ -1,21 +1,15 @@
-
-.dropdown-item {
-    color: black;
+.nav-item {
     font-family: Papyrus, fantasy;
+    color: green;
+    font-size: 18px;
 }
 
-.nav-link {
-    color: white;
-    font-family: Papyrus, fantasy;
-    font-size: 18px;
+.navbar-nav {
+    color: blue;
 }
 
 .dropdown-menu {
     background-color: black;
-}
-
-.nav {
-    padding-right: 25px;
 }
 
 .carousel-item img {
@@ -74,6 +68,7 @@
     display: block;
     margin: auto;
     height: 500px;
+    padding-top: 30px;
 }
 
 .parallax-gallery {

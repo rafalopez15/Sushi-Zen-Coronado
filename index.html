@@ -5,42 +5,71 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-
         <title>Sushi Zen Coronado</title>
         <link rel="shortcut icon" href="/img/Title%20logo.jpg" />
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+        <link rel="icon" href="../../../../favicon.ico">
+        
         <link rel="stylesheet" href="stylesheet.css">
         <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+<!--        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">-->
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     </head>
     
     <body>
 
         <!--Navigation Section-->
-        <nav class="navbar" style="background: black">
-            <a class="navbar-brand" href="index.html">
-                <img id="logo" src="/img/Sushi%20Zen%20logo.jpg" width="450" height="170" alt="">
-            </a>
-            <ul class="nav">
-                <li class="nav-item">
-                    <a class="nav-link active" href="#">Home</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Menu</a>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#">Appetizers</a>
-                        <a class="dropdown-item" href="#">Rolls</a>
-                        <a class="dropdown-item" href="#">Nigiri</a>
-                        <a class="dropdown-item" href="#">Entrees</a>
-                        <a class="dropdown-item" href="#">Desserts</a>
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background: black">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <!-- Title Logo in Navigation  -->
+                    <a class="navbar-brand" href="index.html"><img id="logo" src="/img/Sushi%20Zen%20logo.jpg" width="500px" height="170" alt=""></a>
+                    <!-- Collapse Button Icon  -->
+                    <button type="button" class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#myNavbar"><span class="navbar-toggler-icon"></span></button>
+                </div>
+                
+                <!-- Right menu section of navigation bar -->
+                <div class="collapse navbar-collapse" id="myNavbar">
+<!--                    <ul class="nav navbar-nav navbar-right" data-toggle="collapse">-->
+<!--
+                    <span class="mr-auto"></span>
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link as" href="#">Home</a>
+                        <div class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle as" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Menu</a>
+                            <div class="nav-item dropdown-menu">
+                                <a class="nav-link dropdown-item as" href="#" style="color: green;">Appetizers</a>
+                                <a class="nav-item nav-link dropdown-item as" href="#">Rolls</a>
+                                <a class="nav-item nav-link dropdown-item as" href="#">Nigiri</a>
+                                <a class="nav-item nav-link dropdown-item as" href="#">Entrees</a>
+                                <a class="nav-item nav-link dropdown-item as" href="#">Desserts</a>
+                            </div>
+                        </div>
+                        <a class="nav-item nav-link as" href="#">Location</a>
+                        <a class="nav-item nav-link as" href="#">Contact Us</a>
                     </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Location</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact Us</a>
-                </li>
-            </ul>
+-->
+                    <span class="mr-auto"></span>
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Menu</a>
+                            <div class="dropdown-menu">
+                                <a class="nav-link dropdown-item" href="#">Appetizers</a>
+                                <a class="nav-link dropdown-item" href="#">Rolls</a>
+                                <a class="nav-link dropdown-item" href="#">Nigiri</a>
+                                <a class="nav-link dropdown-item" href="#">Entrees</a>
+                                <a class="nav-link dropdown-item" href="#">Desserts</a>
+                            </div>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="#">Location</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+                    </ul>
+                    
+                </div>
+            </div>
         </nav>
 
         <!-- Carousel -->
