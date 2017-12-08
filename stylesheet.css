@@ -1,30 +1,26 @@
-
-.dropdown-item {
-    color: black;
+.nav-item {
     font-family: Papyrus, fantasy;
+    color: green;
+    font-size: 18px;
 }
 
-.nav-link {
-    color: white;
-    font-family: Papyrus, fantasy;
-    font-size: 18px;
+.navbar-nav {
+    color: blue;
 }
 
 .dropdown-menu {
     background-color: black;
 }
 
-.nav {
-    padding-right: 25px;
-}
-
 .carousel-item img {
-    height: 550px;
+    height: 450px;
     width: 800px;
 }
 
 .footer {
-    background-color: black;
+    padding: 10px;
+    padding-top: 40px;
+    background-color: #c92230;
 }
 
 .copyright p {
@@ -43,12 +39,8 @@
 .footer-links p a {
     align-content: right;
     font-family: Calibri;
-    color: white;
+    color: black;
     text-align: right;
-}
-
-.footer-links p {
-    color: ghostwhite;
 }
     
 #About-section {
@@ -60,4 +52,25 @@
     padding-left: 100px;
     padding-right: 100px;
     font-size: 28px;
+}
+
+.gallery {
+    background-color: black;
+    padding-bottom: 100px;
+}
+
+.gallery-container {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.gallery-picture {
+    display: block;
+    margin: auto;
+    height: 500px;
+    padding-top: 30px;
+}
+
+.parallax-gallery {
+    
 }
